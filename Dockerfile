@@ -1,9 +1,6 @@
 # Start with a base image containing Java runtime
 FROM openjdk:11
 
-# Add Maintainer Info
-MAINTAINER Rajeev Kumar Singh <callicoder@gmail.com>
-
 # Add a volume pointing to /tmp
 VOLUME /tmp
 
