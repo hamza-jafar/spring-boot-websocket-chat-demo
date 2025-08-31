@@ -20,6 +20,7 @@ spec:
         ports:
           - name: http
             containerPort: 8080 # The port that the container exposes
+            
 ---
 apiVersion: v1                # API version
 kind: Service                 # Type of the kubernetes resource
