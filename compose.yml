@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   java-chat-app: 
-    image: java-chat-app 
+    image: hamzajafar/java-chat-app
     container_name: java-app
     ports:
       - "8081:8080"
